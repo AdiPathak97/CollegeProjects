@@ -1,0 +1,70 @@
+
+<html>
+<head>
+
+	<title>Book your LuCAR now!</title>
+	<link rel="stylesheet" type="text/css" href="book_style.css">
+<script>
+
+
+
+</script>
+
+</head>
+
+<body>
+
+<div class="container">  
+  <form id="contact"  action="BookNowTestDB.php" method="post">
+  
+  
+<h3>Choose Your Robot</h3>
+<br><fieldset>
+  <input type="text" list="Robots" placeholder="Select robot according to approx. weight of luggage" name="robot" required>
+  
+  <datalist id="Robots">
+    <option value="Piki-30 Kgs">
+    <option value="Pika-50 Kgs">
+    <option value="Mongie-100 Kgs">
+    <option value="Mongo-150 Kgs">
+    
+  </datalist>
+  </fieldset>
+<br>
+
+<h3>Enter PickUp Location</h3>
+<br><fieldset>
+<input type="text" name="pickup" placeholder="e.g. Gate no. 3" required>
+  </fieldset>
+<br>
+<h3>Enter Drop Location</h3>
+<br><fieldset>
+<input type="text" name="drop" placeholder="e.g. Parking lot no. 5" required>
+  <br></fieldset>
+<h3>Enter Pick Up Date</h3>
+<br><fieldset>
+<input type="date" name="date" placeholder="dd:mm:yyyy" required>
+  <br></fieldset>
+<h3>Enter Pick Up Time</h3>
+<br><fieldset>
+<input type="time" name="time" placeholder="hh:mm:ss AM/PM" required>
+  <br></fieldset>
+<br>
+
+<button class="btn"><input type="Submit" name="submit"></button>
+</form>
+
+
+
+
+</div>
+
+
+
+</body>
+</html>
+
+
+
+
+
